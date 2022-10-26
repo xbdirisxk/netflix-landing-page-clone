@@ -4,3 +4,111 @@
   --red: #e50914;
   --hr-color: #222;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--black);
+}
+
+header {
+  position: relative;
+  height: 100vh;
+}
+
+.bgimg {
+  position: absolute;
+  background: center;
+  background-size: cover;
+
+  height: 100%;
+  width: 100%;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.showcase-top img {
+  width: 195px;
+}
+
+.showcase-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.leftcontent {
+  margin: 10px;
+  width: 20%;
+}
+
+.sign {
+  margin: 3%;
+  border-radius: 5px;
+  border: none;
+  background: var(--red);
+  font-size: 1rem;
+  padding: 9px 20px;
+  line-height: 1.3em; 
+}
+  
+
+.showcase-top select {
+  background: rgba(0,0,0,.4);
+  padding: 7px 8px;
+  margin: 0%;
+  color: var(--white);
+  border: 1px white solid;
+  
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.showcase-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  font-size: 25px;
+}
+
+.showcase-content {
+  line-height: 1.3cm;
+  width: 50%;
+  text-align: center;
+
+}
+
+.showcase-content button {
+  font-size: 18px;
+  padding: 10px 25px;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--red);
+  border: none;
+}
+
+.emailfield {
+  font-size: 20px;
+  height: 30px;
+  width: 600px;
+  padding: 10px 10px 0;  
+}
+
+p {
+  font-size: 20px
+}
+
+hr {
+  color: rgb(58, 55, 55);
+  border: 3px solid;
+
+}
