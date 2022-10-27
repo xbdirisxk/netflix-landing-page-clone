@@ -58,7 +58,7 @@ header {
 }
   
 
-.showcase-top select {
+.showcase-top select, .language-switcher {
   background: rgba(0,0,0,.4);
   padding: 7px 8px;
   margin: 0%;
@@ -88,7 +88,7 @@ a {
 }
 
 .showcase-content button {
-  font-size: 18px;
+  font-size: 19px;
   padding: 10px 25px;
   text-align: center;
   color: var(--white);
@@ -99,7 +99,7 @@ a {
 .emailfield {
   font-size: 20px;
   height: 30px;
-  width: 600px;
+  width: 500px;
   padding: 10px 10px 0;  
 }
 
@@ -111,4 +111,139 @@ hr {
   color: rgb(58, 55, 55);
   border: 3px solid;
 
+}
+
+.secondcontainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.secondcontent {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+
+}
+
+.secondcontent > h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+ .secondcontent > p {
+  font-size: 1.25rem;
+  font-weight: 200;
+ }
+
+ .thirdcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+ }
+
+ .thirdcontent {
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  margin: 60px;
+ }
+
+ .thirdcontent > h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  
+}
+ .thirdcontent > p {
+  font-size: 1.25rem;
+  font-weight: 200;
+ }
+
+ .fourthcontainer {
+  margin: 70px; 
+  display: flex;
+}
+
+.fourthcontent {
+  flex-direction: column;
+  width: 50%;
+}
+
+.fourthcontent > h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  
+}
+ .fourthcontent > p {
+  font-size: 1.25rem;
+  font-weight: 200;
+ }
+
+ .fifthcontainer {
+  display: flex;
+  margin: 50px;
+  justify-content: space-evenly;
+
+ }
+
+ .fifthcontent {
+  flex-direction: column;
+  width: 50%;
+  margin-top: 100px;
+  justify-content: center;
+ }
+
+ .fifthcontent > h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+ }
+
+ .fifthcontent > p {
+  font-size: 1.25rem;
+  font-weight: 200;
+ }
+
+
+ .footer {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  width: 80%;
+  gap: 10px;
+  flex-direction: column;
+ }
+
+.footerlist {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+  width: 80%;
+  margin-left: 0px;
+  padding: 20px;
+  line-height: 30px;
+  
+}
+ 
+.footer, .footer a {
+  color: #999;
+  font-size: 0.8rem;
+ }
+
+ul {
+  list-style: none;
+}
+.footer p, span {
+  
+  font-size: 0.9rem;
+  margin-left: 85px;
+}
+
+.footerselect {
+  padding-left: 80px;
+  
+}
+.language-switcher {
+  padding: 15px;
 }
