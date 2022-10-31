@@ -234,3 +234,8 @@ hr {
   align-items: flex-start;
   gap: 10px;
 }
+
+.list > *:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
