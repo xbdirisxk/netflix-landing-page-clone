@@ -5,113 +5,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>N Clone</title>
+
+    <title>Netflix - Watch TV Shows Online, Watch Movies Online</title>
   </head>
   <body>
-    <div class="container">
-      <img
-        src="./images/netflix-bg.jpg"
-        alt="background-image"
-        class="bg-img"
-      />
-      <nav class="nav">
-        <img src="./images/netflix-logo.svg" alt="logo" class="logo-img" />
-        <button class="signin-btn">Sign In</button>
-      </nav>
-      <div class="banner-container">
-        <div class="banner">
-          <h1 class="title">Unlimited movies, TV shows, and more.</h1>
-          <p class="text1">Watch anywhere. Cancel anytime.</p>
-          <p class="text2">
-            Ready to watch? Enter your email to create or restart your
-            membership.
-          </p>
-          <input type="text" class="email-input" placeholder="Email Address" />
-
-          <button class="submit-btn">Get Started</button>
-        </div>
-      </div>
-    </div>
+      <header class="showcase">
+          <img src="/images/netflix-bg.jpg" alt="background" class="bgimg">
+          <nav class="showcase-top">
+            <img src="/images/Netflix-Brand-Logo.png" alt="Netflix" class="nflogo">
+            <div class="leftcontent">
+              <select name="language" class="language-switcher">
+              <option value="arabic">Arabic</option>
+              <option value="english" selected>English</option>
+              </select>
+              <button class="sign"><a href="#">Sign in</a></button>
+            </div>
+          </nav>
+          <div class="showcase-container">
+            <div class="showcase-content">
+              <h1>Unlimited movies, TV shows, and more.</h1>
+              <h4>Watch anywhere. Cancel anytime.</h4>
+              <p>Ready to watch? Enter your email to create or restart your membership.</p> 
+              <input type="email" class="emailfield" placeholder="Email Address">
+              <button><a href="#">Get Started</a></button> 
+            </div>    
+          </div>
+      </header>
     <hr />
-    <!-- Netflix TV section -->
-    <div class="netflix-tv">
-      <div class="tv-text">
-        <h1>Enjoy on your TV.</h1>
-        <p>
-          Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
-          players, and more.
-        </p>
+    <section class="secondcontainer">
+      <div class="secondcontent">
+        <h1>Enjoy on your TV.</h1><br />
+        <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
       </div>
-      <div class="tv-img-section">
-        <img src="./images/tv.png" alt="" class="tv-img" />
+      <div>
+        <img src="/images/tv.png" alt="TV">
       </div>
-    </div>
+    </section>
     <hr />
-    <!-- Netflix mobile section -->
-    <div class="netflix-mobile">
-      <div class="mobile-img-section">
-        <img src="./images/phone.png" alt="" class="mobile-img" />
+    <section class="thirdcontainer">
+      <div>
+        <img src="/images/phone.png" alt="Phone">
       </div>
-      <div class="mobile-text-section">
-        <h1>Download your shows to watch offline.</h1>
-        <p>
-          Watch your favorate tv show, series, movies from your phone Save your
-          favorites easily and always have something to watch.
-        </p>
+      <div class="thirdcontent">
+        <h1>Download your shows to watch offline.</h1> <br />
+        <p>Save your favorites easily and always have something to watch.</p>
       </div>
-    </div>
+    </section>
     <hr />
-    <!-- ====== -->
-    <div class="watch-section">
-      <h1>Watch everywhere.</h1>
-      <p>
-        Stream unlimited movies and TV shows on your phone, tablet, laptop, and
-        TV.
-      </p>
-    </div>
-    <hr />
-    <!-- Neflix kids TV -->
-    <div class="netflix-kids">
-      <div class="kids-img-section">
-        <img src="./images/kids-tv.png" alt="" class="kids-img" />
+    <section class="fourthcontainer">
+      <div class="fourthcontent">
+        <h1>Watch everywhere.</h1> <br />
+        <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
       </div>
-      <div class="kids-text-section">
-        <h1>Create profiles for kids.</h1>
-        <p>
-          Send kids on adventures with their favorite characters in a space made
-          just for them—free with your membership.
-        </p>
-      </div>
-    </div>
+    </section>
     <hr />
-    <!-- Footer -->
+    <section class="fifthcontainer">
+      <div>
+        <img src="/images/kids-tv.png" alt="kids" width="80%">
+      </div>
+      <div class="fifthcontent">
+        <h1>Create profiles for kids.</h1> <br />
+        <p>Send kids on adventures with their favorite characters in a space made 
+          just for them—free with your membership.</p>
+      </div>
+    </section>
+    <hr />
     <footer class="footer">
-      <span>Questions? Contact us.</span>
-      <div class="lists-container">
-        <ul class="list">
-          <li>FAQ</li>
-          <li>Investor Relations</li>
-          <li>Privacy</li>
-          <li>Speed Test</li>
+      <p>Questions? Contact us.</p>
+      <div class="footerlist">
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Media Center</a></li>
+          <li><a href="#">Ways to Watch</a></li>
+          <li><a href="#">Cookie Preferences</a></li>
         </ul>
-        <ul class="list">
-          <li>Help Center</li>
-          <li>Jobs</li>
-          <li>Cookies Preferences</li>
-          <li>Legal Notices</li>
+        <ul>
+          <li><a href="#">Speed Test</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Terms of Use</a></li>
         </ul>
-        <ul class="list">
-          <li>Account</li>
-          <li>Ways to Watch</li>
-          <li>Corporate information</li>
-          <li>Only on Netflix</li>
+        <ul>
+          <li><a href="#">Corporate Information</a></li>
+          <li><a href="#">Legal Notices</a></li>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Jobs</a></li>
         </ul>
-        <ul class="list">
-          <li>Media Center</li>
-          <li>Terms of Use</li>
-          <li>Contact Us</li>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Only on Netflix</a></li>
         </ul>
       </div>
+      <div class="footerselect">
+        <select name="language" class="language-switcher">
+        <option value="arabic">Arabic</option>
+        <option value="english" selected>English</option>
+        </select>
+      </div>
+      <br />
+      <span>Netflix Somalia</span>
     </footer>
   </body>
 </html>
